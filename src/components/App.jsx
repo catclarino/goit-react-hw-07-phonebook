@@ -23,7 +23,7 @@ const App = () => {
       {contacts.length > 0 ? (
         <Filter />
       ) : (
-        <Wrapper>Your phonebook is empty. Add first contact!</Wrapper>
+        <Wrapper>Your phonebook is empty. Add a contact first!</Wrapper>
       )}
       {contacts.length > 0 && <ContactList />}
     </Container>
